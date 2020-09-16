@@ -6,27 +6,13 @@
   "scripts": {
     "build": "webpack",
     "serve": "webpack-dev-server --open",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
-    "husky": {
-      "hooks": {
-        "pre-commit": "npm run lint"
-      }
-    },
-    "config": {
-      "commitizen": {
-        "path": "cz-customizable"
-      }
-    }
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
     "file-loader": "^6.0.0",
-    "husky": "^4.3.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
