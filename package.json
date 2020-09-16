@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "file-loader": "^6.0.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
